@@ -11,6 +11,20 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+
+/* navbar */
+.navlist:hover{
+color: #e52222;
+}
+.btn-1{
+  background-color: gainsboro;
+}
+.btn-1:hover{
+  background-color: #e52222;
+  color:white; 
+}
+
 /* Swiper slider */
 .swiper {
       width: 100%;
