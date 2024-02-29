@@ -1,0 +1,98 @@
+*{
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+body{
+    font-family: "Merriweather", serif;
+    position: relative;
+}
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* Swiper slider */
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .autoplay-progress {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 10;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: var(--swiper-theme-color);
+    }
+
+    .autoplay-progress svg {
+      --progress: 0;
+      position: absolute;
+      left: 0;
+      top: 0px;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      stroke-width: 4px;
+      stroke: var(--swiper-theme-color);
+      fill: none;
+      stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+      stroke-dasharray: 125.6;
+      transform: rotate(-90deg);
+    }
+    .back-1{
+        background-image: url(./Image/images/home-bg-1.png);
+        height:500px;
+    }
+    .back-2{
+background-image: url(./Image/images/home-bg-2.png);
+height:500px;
+    }
+    .back-3{
+        background-image: url(./Image/images/banner-bg.png);
+        height:500px;
+    }
+    /* swiper button */
+    .home .first-caru .firstdiv .btn {
+      background-color: #e52222;
+      -webkit-animation: fadeIn .2s linear backwards .6s;
+              animation: fadeIn .2s linear backwards .6s;
+              
+    }
+    .home .first-caru .firstdiv  .merry {
+      color: #222;
+      display: block;
+      text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      -webkit-animation: fadeIn .2s linear backwards;
+              animation: fadeIn .2s linear backwards;
+    }
+    .home .first-caru .firstdiv .happy {
+      color: #e52222;
+      text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      text-transform: uppercase;
+      -webkit-animation: fadeIn .2s linear backwards .4s;
+              animation: fadeIn .2s linear backwards .4s;
+    }
+    
