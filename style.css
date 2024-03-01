@@ -89,24 +89,36 @@ height:500px;
         height:500px;
     }
     /* swiper button */
-    .home .first-caru .firstdiv .btn {
+     .btn {
       background-color: #e52222;
-      -webkit-animation: fadeIn .2s linear backwards .6s;
-              animation: fadeIn .2s linear backwards .6s;
+      color: white;
               
     }
-    .home .first-caru .firstdiv  .merry {
+    .btn:hover {
+      color: #e52222;
+      border: 3px solid #e52222;
+      
+              
+    }
+      .merry {
       color: #222;
       display: block;
       text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-      -webkit-animation: fadeIn .2s linear backwards;
-              animation: fadeIn .2s linear backwards;
+      
     }
-    .home .first-caru .firstdiv .happy {
+    .happy {
       color: #e52222;
       text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
       text-transform: uppercase;
-      -webkit-animation: fadeIn .2s linear backwards .4s;
-              animation: fadeIn .2s linear backwards .4s;
-    }
     
+    }
+    /* chrishtmas sales section */
+    .sale-col{
+      background-color: gainsboro;
+      width: 600px;
+      height: 460px;
+    }
+    .chris-tree{
+      color: #e52222;
+      font-size: 70px;
+    }
