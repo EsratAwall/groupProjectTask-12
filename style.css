@@ -112,6 +112,11 @@ height:500px;
       text-transform: uppercase;
     
     }
+    /* christmas decoration */
+    .decocris:hover{
+color: #e52222;
+font-weight: bold;
+    }
     /* chrishtmas sales section */
     .sale-col{
       background-color: gainsboro;
@@ -135,3 +140,72 @@ background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
  }
+ /* footer section */
+ .foo-icons{
+  background-color: rgb(220, 220, 220);
+ }
+ .foo-icons:hover{
+  background-color:#e52222;
+  color: white;
+ }
+ .icons-11{
+  color: #e52222;
+ }
+ .foo-home{
+  color: rgb(90, 97, 109);
+ }
+ .foo-home:hover{
+  margin-left: 10px;
+  color: #e52222;
+ }
+ .foo-heading{
+  color: black;
+ }
+ .foo-heading:hover{
+color: #e52222;
+margin-bottom: 7px;
+ }
+ /* image zoom */
+ .parent{
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+
+}
+.zoomimage{
+  transition:all 1.1s;
+}
+.parent:hover .zoomimage{
+  transform: scale(1.2);
+}
+/* .content{
+  position: relative;
+}
+.image1{
+  display: block;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.content:hover .overlay{
+  width:10%;
+}
+.text-ico{
+  color: #e52222;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+} */
